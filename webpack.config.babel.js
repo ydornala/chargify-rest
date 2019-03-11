@@ -10,14 +10,6 @@ module.exports = {
         globalObject: 'this',
         library: 'chargify-rest'
     },
-    externals: {
-        'axios': {
-            commonjs: 'axios',
-            commonjs2: 'axios',
-            amd: 'axios',
-            root: '_'
-        }
-    },
     module: {
         rules: [
             {
