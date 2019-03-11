@@ -16,14 +16,15 @@ This library is used to access Chagify API with GET, POST, PUT, and DELETE metho
 
 ## Method Usage
 ### GET
-```chargify_rest_client.get('url')
-		.then(function(res) {})
-		.catch(function(err) {});
+```
+chargify_rest_client.get('url')
+    .then(function(res) {})
+	.catch(function(err) {});
 ```
 
 ### POST
 ```
 chargify_rest_client.post('url', data)
-		.then(function(res) {})
-		.catch(function(err) {});
+	.then(function(res) {})
+	.catch(function(err) {});
 ```
