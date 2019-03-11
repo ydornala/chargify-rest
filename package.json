@@ -1,5 +1,5 @@
 {
-  "name": "chargify-api",
+  "name": "chargify-rest",
   "version": "1.0.0",
   "description": "",
   "main": "dist/chargify.js",

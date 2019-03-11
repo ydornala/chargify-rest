@@ -8,7 +8,7 @@ module.exports = {
         filename: 'chargify-rest',
         libraryTarget: 'umd',
         globalObject: 'this',
-        library: 'chargify'
+        library: 'chargify-rest'
     },
     externals: {
         'axios': {
