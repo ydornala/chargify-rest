@@ -2,7 +2,7 @@
   "name": "chargify-rest",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/chargify.js",
+  "main": "dist/chargify-rest.js",
   "scripts": {
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
