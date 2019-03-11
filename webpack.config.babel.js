@@ -2,7 +2,7 @@ var path = require('path');
 
 module.exports = {
     mode: 'production',
-    entry: './index.js',
+    entry: './src/index.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'chargify-rest.js',
