@@ -17,6 +17,8 @@ export class chargify {
                 Authorization: `Basic ${encoded}`
             }
         });
+
+        return this.api;
     }
 
     /**
